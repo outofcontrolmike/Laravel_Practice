@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Controller for Projects
+
+Route::get('/projects', 'ProjectsController@index');
