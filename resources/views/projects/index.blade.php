@@ -19,7 +19,7 @@
   @foreach ($projects as $project)
 
   <li>
-        {{$project ->title}} +
+        {{$project ->title}} 
         {{$project ->description}}
   </li>
   @endforeach
